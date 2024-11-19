@@ -17,6 +17,26 @@ background-color: aqua;
 /* Responsive Design Additions */
 
 /*your CSS will go here*/
+  
+ @media (max-width: 600px) {
+            body {
+                background-color: yellow;
+            }
+
+            img, p {
+                width: 100%;
+            }
+        }
+
+  @media (min-width: 600px) {
+            img {
+                width: 800px;
+            }
+
+            p {
+                width: 600px;
+            }
+        }
 
 /* misc. styling */
 
@@ -71,25 +91,6 @@ margin-top: 0;
 margin-bottom: 0;
 }
   
-  @media (max-width: 600px) {
-            body {
-                background-color: yellow;
-            }
-
-            img, p {
-                width: 100%;
-            }
-        }
-
-        @media (min-width: 601px) {
-            img {
-                width: 800px;
-            }
-
-            p {
-                width: 600px;
-            }
-        }
 </style>
   
 </head>
